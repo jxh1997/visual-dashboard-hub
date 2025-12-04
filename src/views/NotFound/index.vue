@@ -1,6 +1,6 @@
 <template>
     <div class="about-page">
-        About
+        404
     </div>
 </template>
 

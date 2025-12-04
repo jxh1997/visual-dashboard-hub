@@ -24,18 +24,18 @@ const routes: RouteRecordRaw[] = [
         component: () => import("@/views/CaseDetail/index.vue"), // 案例详情页
         props: true,
       },
-      // {
-      //   path: "about",
-      //   name: "About",
-      //   component: () => import("@/views/About/index.vue"), // 关于页
-      // },
+      {
+        path: "about",
+        name: "About",
+        component: () => import("@/views/About/index.vue"), // 关于页
+      },
     ],
   },
-  // {
-  //   path: "/:pathMatch(.*)*",
-  //   name: "NotFound",
-  //   component: () => import("@/views/NotFound/index.vue"), // 404 页
-  // },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: () => import("@/views/NotFound/index.vue"), // 404 页
+  },
 ];
 
 // 创建路由实例

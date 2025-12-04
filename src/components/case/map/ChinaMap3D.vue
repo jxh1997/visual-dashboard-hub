@@ -1,6 +1,6 @@
 <template>
     <div class="china-map-3d">
-        中国地图 3D 组件
+        <dv-decoration-1 :color="['pink','yellow']" style="width:200px;height:50px;" />
     </div>
 </template>
 
